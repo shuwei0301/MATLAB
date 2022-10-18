@@ -18,7 +18,7 @@ else
 %%D1(i)=((Cs^2-V^2)*T(j))/2/(Cs-V*cos(q(j))*cos(deita(i)));
 T(j)=2*D_jing(i)*(Cs-V*cos(q(j))*cos(deita(i)))/(Cs^2-V^2);
 t_jian(j)=Cs*T(j)/2/(Cs-V*cos(q(j))*cos(deita(i)));
-D_jian(j)=Cs^2*T(j)/2/(Cs-V*cos(q(j)))
+D_jian(j)=Cs^2*T(j)/2/(Cs-V*cos(q(j)));
 end
 t_jing(i)=D_jing(i)/Cs;        %%精确模型的反射段时间
 t_chuan(j)=T(j)/2;          %%传统模型的反射段时间
